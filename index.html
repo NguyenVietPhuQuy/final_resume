@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio-PhuQuy</title>
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--SWIPER CSS-->
+    <link rel="stylesheet" href="./Style/swiper-bundle.min.css">
+    <!--CSS Index-->
+    <link rel="stylesheet" href="./Style/Index.css">
+</head>
+
+<body>
+    <!--=======================  HEADER  =========================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">PHÚ QUÝ</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link">
+                            <i class="fa-solid fa-house-user nav__icon"></i>
+                            <span class="nav__text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#About" class="nav__link ">
+                            <i class="fa-solid fa-user nav__icon"></i>
+                            <span class="nav__text"> About</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Skills" class="nav__link">
+                            <i class="fa-solid fa-file-lines nav__icon"></i>
+                            <span class="nav__text">Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Library" class="nav__link">
+                            <ion-icon name="library-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__text">Library</span>
+                            <span class="nav__text" style="color: red;">In progress</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Portfolio" class="nav__link">
+                            <i class="fa-solid fa-address-card nav__icon"></i>
+                            <span class="nav__text">Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Contact" class="nav__link">
+                            <i class="fa-solid fa-phone-volume nav__icon"></i>
+                            <span class="nav__text">ContactMe</span>
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-circle-xmark nav__close" id="nav-close"></i>
+
+            </div>
+            <div class="nav__btns">
+                <!--theme change button-->
+                <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=======================  MAIN  ==========================-->
+    <main class="main">
+        <!--HOME-->
+        <section class="home section" id="Home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/phu-quy-ab408215b" class="home__social-icon"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/NguyenVietPhuQuy" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-background" href="../IMG/backgroundgreen2.png" width="300px"
+                                    height="200px" />
+                                <image class="home__blob-img" x="-4" y="5" href="../IMG/avatar.png" width="180px"
+                                    height="229px" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Dear HR Recruiter
+                        </h1>
+                        <h3 class="home__subtitle">
+                            My name is Quý - Front-End & Back-End Junior developer
+                        </h3>
+                        <p class="home__description">
+                            With Passion and Mind of Steel - Challenges won't let me down </br>
+                            It is my principle when I do any task and overcome the limit
+                        </p>
+                        <a href="#Contact" class="button button--flex">
+                            Contact Me <i
+                                class="fa-solid fa-pen-to-square button__icon animate__animated animate__flash animate__slow animate__infinite"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#About" class="home__scroll-button button--flex">
+
+                        <span class="home__scroll-name">Go Next</span>
+                        <i class="fa-solid fa-down-long button__animation home__scroll-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--========================About===========================-->
+        <section class="about section" id="About">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Introduction</span>
+            <div class="about__container container grid">
+                <img src="../IMG/Sky.png" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">I have worked 8 years in business's field, but I feel it is not my
+                        last journey - my passion. It is a little bit late. However, my principle:"LATE THAN NEVER" so I
+                        decide to move forward - FrontEnd Developer which I really love. Then,
+                        It has been 6 months when I start study Front-End at
+                        <a href="https://cybersoft.edu.vn/" target="_blank">CyberSoft</a>
+                        .And,I
+                        know my skills in Coding still not qualified yet.However, I believe if you could give me a try,
+                        I won't make you regret on it. I show some projects which I have done below and my objects in
+                        the next few years..Hope you enjoy it!
+                    </p>
+                </div>
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">1,7+</span>
+                        <span class="about__info-name">months </br>Learning</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">5+</span>
+                        <span class="about__info-name">Completed </br>Projects</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">08+</span>
+                        <span class="about__info-name">Prepared </br>Library</span>
+                    </div>
+                </div>
+                <div class="about__buttons">
+                    <a download="" target="_blank"
+                        href="https://drive.google.com/file/d/1kNC8A-TT5UwOwYRRMvebXdoP8yYl1d7v/view?usp=drive_linkgit"
+                        class="button button--flex">Download CV<i
+                            class="fa-solid fa-download button__icon animate__animated animate__flash animate__slow animate__infinite"></i></a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--========================Skill===========================-->
+        <section class="skills section" id="Skills">
+            <h2 class="section__title">SKILLS & ORIENTATION</h2>
+            <span class="section__subtitle">My technical level</span>
+            <div class="skills__container container grid">
+                <div>
+                    <!--FRONT-END SKILLS-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-code skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">Experience: 1.7 Years</span>
+                            </div>
+                            <i class="fa-sharp fa-solid fa-angles-down skills__down"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__javascript"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--BACK-END-SKILL-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-database skills__icon" style="margin-left: 10px;"></i>
+                            <div>
+                                <h1 class="skills__title">BackEnd Developer</h1>
+                                <span class="skills__subtitle">Experience: 1 Years</span>
+                            </div>
+                            <i class="fa-sharp fa-solid fa-angles-down skills__down"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--ORIENTATION-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-person-walking skills__icon" style="margin-left: 20px;"></i>
+                            <div>
+                                <h1 class="skills__title">Orientation</h1>
+                                <span class="skills__subtitle">Duration: 1 years to learning</span>
+                            </div>
+                            <i class="fa-sharp fa-solid fa-angles-down skills__down"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">VueJS</h3>
+                                    <span class="skills__number">2 months</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vueJS"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ReactJS</h3>
+                                    <span class="skills__number">4 months</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__reactjs"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">NodeJS</h3>
+                                    <span class="skills__number">6 months</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__nodejs"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Apex Oracle</h3>
+                                    <span class="skills__number">1 years</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__nodejs"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================Qualification===========================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <p class="section__subtitle">Journey & Education</p>
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex ">
+                        <ion-icon name="school-outline" class="qualification__icon qualification__active"
+                            data-target="#education"></ion-icon>
+                        Education
+                    </div>
+                    <div class="qualification__button button--flex">
+                        <ion-icon name="briefcase-outline" class="qualification__icon" data-target="#work"></ion-icon>
+                        Work
+                    </div>
+                </div>
+                <div class="qualification__sections">
+                    <!--qualification content 1-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+
+                        <!--qualification 1-study-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Business <br />Administration</h3>
+                                <span class="qualification__subtitle">SaigonTech - College</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>2014-2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--qualification 2- work-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualifcation__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Planning Staff</h3>
+                                <span class="qualification__subtitle">VietSun-Garment Industry</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>2018-2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--qualification 3- work-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualifcation__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Sales Executive</h3>
+                                <span class="qualification__subtitle">HakomeHouse - RealEstate</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>2020-2022
+                                </div>
+                            </div>
+                        </div>
+
+
+                       <!--qualification 4 -work-->
+                       <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Learning IT</h3>
+                            <span class="qualification__subtitle">CyberSoft -TrainingCenter</span>
+                            <div class="qualification__calendar">
+                                <ion-icon name="trail-sign-outline"></ion-icon>07/2022-02/2023 
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                        
+                        <!--qualification 5 -work-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualifcation__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Fullstack IT</h3>
+                                <span class="qualification__subtitle">GreenSys - Companny</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>10/2022-Recent
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--qualification content 2-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--qualification 1-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Planning Staff</h3>
+                                <span class="qualification__subtitle">VietSun-Garment Industry</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>2018-2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--qualification 2-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder small__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Sales Executive</h3>
+                                <span class="qualification__subtitle">HakomeHouse - RealEstate</span>
+                                <div class="qualification__calendar">
+                                    <ion-icon name="trail-sign-outline"></ion-icon>2020-2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================Library===========================-->
+
+
+
+        <!-- In progress of build-up-->
+
+
+
+        <!--========================Portfolio===========================-->
+        <section class="portfolio section" id="Portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent projects</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--Portfolio 1-->
+                    <div class="portfolio__content grid swiper-slide ">
+                        <img src="../IMG/project1.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PET BLOG - HTML/CSS/Animate</h3>
+                            <p class="portfolio__description">Using only HTML/CSS/ANIMATION to build UI combined good
+                                Animation</p>
+                            <a href="https://bc37-capstone-hainlh.vercel.app/"
+                                class="button button--flex button--small portfolio__button">VISIT
+                                <ion-icon name="shield-checkmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Portfolio 2-->
+                    <div class="portfolio__content grid swiper-slide ">
+                        <img src="../IMG/sesoft.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">SESOFT - ERP PROJECT </h3>
+                            <p class="portfolio__description">It is make from Apex Oracle - alow-code application platform which is maked by Oracle - This project fully serves for ERP: Accounting, Human Resource, Sales, Buying, Store,...</p>
+                            <a href="#Portfolio"
+                                class="button button--flex button--small portfolio__button" style="color:red">LIMIT
+                                <ion-icon name="shield-checkmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--add arrow-->
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-caret-right swiper-button-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-caret-left swiper-button-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--========================Contact===========================-->
+        <section class="contact section" id="Contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div>
+                        <div class="contact__information">
+                            <ion-icon name="call-outline" class="contact__icon"></ion-icon>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">(+84)906297204</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="contact__information">
+                            <ion-icon name="mail-unread-outline" class="contact__icon"></ion-icon>
+                            <div>
+                                <h3 class="contact__title">Gmail</h3>
+                                <span class="contact__subtitle">quynvp95@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="contact__information">
+                            <ion-icon name="location-outline" class="contact__icon"></ion-icon>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Sài Gòn--Gò Vấp- HCM.city</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" placeholder="Ex: Nguyen Viet Phu Quy">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="text" class="contact__input" placeholder="Ex: quynvp95@gmail.com">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input" placeholder="Ex: Build Website, Recruitment">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"
+                            placeholder="Ex: description"></textarea>
+                    </div>
+
+                    <div class="contact__btn">
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <ion-icon name="navigate-outline button__icon"></ion-icon>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--========================Call and Facebook===========================-->
+        <section class="section call--fb">
+            <div class="call--fb__container container">
+                <div class="call--fb__content">
+                    <div class="call--circle"><a href="tel:+84906297204" target="_blank" class="phone">
+                            <ion-icon name="call-outline"
+                                class="callfb__icon animate__animated animate__pulse  animate__infinite"
+                                style="margin-bottom: 8px ;"></ion-icon>
+                        </a></div>
+                    <div class="call--circle"> <a href="http://m.me/quynvp96" target="_blank" class="facebook">
+                            <ion-icon name="chatbubbles-outline"
+                                class="callfb__icon animate__animated animate__pulse  animate__infinite"></ion-icon>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=======================  FOOTER  =========================-->
+
+    <!-- In Progress of Building -- Can make 1 but need a best one -->
+
+    <!--=====================  SCROLL TOP  =======================-->
+
+    <a href="#Home" class="scrollup" id="scroll-up">
+        <ion-icon name="arrow-up-outline" class="scrollup__icon animate__fadeInUp animate__animated animate__infinite">
+        </ion-icon>
+    </a>
+
+    <!--====================  SWIPER JS  =========================-->
+    <script src="./Javascript/swiper-bundle.min.js"></script>
+    <!--=====================  MAIN JS  =========================-->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--Javascript-->
+    <script src="./Javascript/Index.js"></script>
+    <!--Javascript Leaf_Animation-->
+</body>
+
+</html>
